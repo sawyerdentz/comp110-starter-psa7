@@ -1,0 +1,9 @@
+# ignore vscode hidden directory
+.vscode
+
+# ignore python cache, object, etc. files
+*.py[cod]
+
+# misc others
+.DS_Store
+*.swp
