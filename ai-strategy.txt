@@ -1,1 +1,5 @@
-Part 4: Put your analysis of the AI's strategy, based on viewing the contents of its hats.
+The ai attempts to get the player to a position where there is 1 stick left. 
+It does this by forcing the player to have a certain number of sticks starting at 1 and going up by 4.
+ex: 1,5,9,13,etc.
+This works because both the ai and player can take a maximum of 3 sticks, so whatever the player does, the ai will be able to force them down the pattern.
+If the player falls into this pattern, the player will not be able to get out and they will eventually have to take the last stick.
